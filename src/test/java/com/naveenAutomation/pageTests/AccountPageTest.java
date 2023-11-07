@@ -37,6 +37,10 @@ public class AccountPageTest extends TestBase{
 				"Info not updated");
 	}
 	@Test
+	public void validateDisplay() {
+		System.out.println("Test1");
+	}
+	@Test
 	public void test1() {
 		System.out.println(new Date());
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
